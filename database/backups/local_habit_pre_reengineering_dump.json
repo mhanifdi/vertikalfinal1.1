@@ -1,0 +1,221 @@
+{
+  "backedUpAt": "2026-10-29T01:10:49.994Z",
+  "sourcePath": "C:\\Users\\PLN\\antigravity\\JAWARA28\\database\\local_habit.db",
+  "sha256": "e541eac4e50536b9683398211e4e81a4f3dd7bf7624698cc42f52c69d0ecf9ba",
+  "tables": {
+    "students": [
+      {
+        "id": "std-siswa",
+        "nisn": "siswa",
+        "password": "123",
+        "name": "Siswa Jawara 28 (Default)",
+        "gender": "L",
+        "class_name": "XI-MIPA-1",
+        "angkatan": "2025/2026",
+        "religion": "Islam",
+        "avatar_seed": "siswa",
+        "walas_name": "Dra. Hj. Nurhidayah, M.Pd.",
+        "walas_nip": "197405101999032001",
+        "walas_notes": "Pertahankan konsistensi 7 kebiasaan unggul Jawara 28.",
+        "walas_recommendation": "Tingkatkan keterlibatan aktif dalam kegiatan Adiwiyata sekolah."
+      },
+      {
+        "id": "std-siswah",
+        "nisn": "siswah",
+        "password": "123",
+        "name": "I Wayan Aditya (Hindu)",
+        "gender": "L",
+        "class_name": "XI-MIPA-1",
+        "angkatan": "2025/2026",
+        "religion": "Hindu",
+        "avatar_seed": "siswah",
+        "walas_name": "Dra. Hj. Nurhidayah, M.Pd.",
+        "walas_nip": "197405101999032001",
+        "walas_notes": "Pertahankan konsistensi 7 kebiasaan unggul Jawara 28.",
+        "walas_recommendation": "Tingkatkan keterlibatan aktif dalam kegiatan Adiwiyata sekolah."
+      },
+      {
+        "id": "std-siswai",
+        "nisn": "siswai",
+        "password": "123",
+        "name": "Siti Rahmawati (Islam)",
+        "gender": "P",
+        "class_name": "XI-MIPA-1",
+        "angkatan": "2025/2026",
+        "religion": "Islam",
+        "avatar_seed": "siswai",
+        "walas_name": "Dra. Hj. Nurhidayah, M.Pd.",
+        "walas_nip": "197405101999032001",
+        "walas_notes": "Pertahankan konsistensi 7 kebiasaan unggul Jawara 28.",
+        "walas_recommendation": "Tingkatkan keterlibatan aktif dalam kegiatan Adiwiyata sekolah."
+      },
+      {
+        "id": "std-siswak",
+        "nisn": "siswak",
+        "password": "123",
+        "name": "Daniel Pratama (Kristen)",
+        "gender": "L",
+        "class_name": "XI-MIPA-1",
+        "angkatan": "2025/2026",
+        "religion": "Kristen",
+        "avatar_seed": "siswak",
+        "walas_name": "Dra. Hj. Nurhidayah, M.Pd.",
+        "walas_nip": "197405101999032001",
+        "walas_notes": "Pertahankan konsistensi 7 kebiasaan unggul Jawara 28.",
+        "walas_recommendation": "Tingkatkan keterlibatan aktif dalam kegiatan Adiwiyata sekolah."
+      }
+    ],
+    "teachers": [
+      {
+        "id": "adm-admin",
+        "nip": "admin",
+        "password": "123",
+        "name": "Drs. H. Ubaidillah, M.M.",
+        "class_name": "Semua Kelas",
+        "subject": "Kepala Sekolah / Tim Kesiswaan 7 KAIH",
+        "role": "Admin Kesiswaan"
+      },
+      {
+        "id": "tch-guru",
+        "nip": "guru",
+        "password": "123",
+        "name": "Dra. Hj. Nurhidayah, M.Pd.",
+        "class_name": "XI-MIPA-1",
+        "subject": "Wali Kelas & Guru Pembimbing",
+        "role": "Guru Wali Kelas"
+      }
+    ],
+    "habit_logs": [
+      {
+        "id": 1,
+        "student_id": "std-siswa",
+        "habit_type": "ibadah",
+        "sub_category": "zuhur",
+        "log_date": "2026-10-25",
+        "created_at": "2026-10-25T12:37:28.625Z",
+        "score": 69,
+        "payload": "{\"stampedTime\":\"12:37\",\"detectedPrayer\":\"zuhur\",\"prayerLabel\":\"Shalat Zuhur\",\"menitLewat\":57,\"waktuSisa\":128,\"waktuToleransi\":185,\"selangTotal\":195,\"formulaText\":\"(Waktu Sisa 128 menit / Toleransi 185 menit) × 100 = 69.2 pt (Cap min 50 pt)\",\"isHalangan\":false,\"quranPages\":0,\"surahName\":\"\"}",
+        "is_counter_entry": 1,
+        "is_missed": 0
+      },
+      {
+        "id": 2,
+        "student_id": "std-siswa",
+        "habit_type": "makan",
+        "sub_category": "siang",
+        "log_date": "2026-10-25",
+        "created_at": "2026-10-25T12:38:30.888Z",
+        "score": 100,
+        "payload": "{\"stampedTime\":\"12:38\",\"detectedMeal\":\"siang\",\"mealLabel\":\"Makan Siang\",\"isPuasa\":true,\"gizi\":null,\"waterGlasses\":null,\"menuNotes\":\"\"}",
+        "is_counter_entry": 1,
+        "is_missed": 0
+      },
+      {
+        "id": 3,
+        "student_id": "std-siswa",
+        "habit_type": "bangun",
+        "sub_category": "",
+        "log_date": "2026-10-27",
+        "created_at": "2026-10-27T02:13:55.747Z",
+        "score": 100,
+        "payload": "{\"entryMode\":\"realtime\",\"timeRecorded\":\"02:13\",\"timeSlot\":\"04.00-04.20\",\"notes\":\"\",\"isMissed\":false,\"timestamp\":\"02.13.55\"}",
+        "is_counter_entry": 0,
+        "is_missed": 0
+      },
+      {
+        "id": 4,
+        "student_id": "std-siswa",
+        "habit_type": "ibadah",
+        "sub_category": "subuh",
+        "log_date": "2026-10-27",
+        "created_at": "2026-10-27T05:12:00.149Z",
+        "score": 50,
+        "payload": "{\"prayer\":\"subuh\",\"checkInTime\":\"05:11\",\"isMissed\":false,\"menitLewat\":71,\"waktuSisa\":19,\"waktuToleransi\":75,\"formulaText\":\"(Sisa 19m / Toleransi 75m) × 100 = 25.3 pt (Cap maks 100 pt, min 50 pt)\",\"quranPages\":0,\"surahName\":\"\",\"timestamp\":\"05.12.00\"}",
+        "is_counter_entry": 1,
+        "is_missed": 0
+      },
+      {
+        "id": 5,
+        "student_id": "std-siswa",
+        "habit_type": "makan",
+        "sub_category": "sarapan",
+        "log_date": "2026-10-27",
+        "created_at": "2026-10-27T06:19:22.937Z",
+        "score": 100,
+        "payload": "{\"mealType\":\"sarapan\",\"subCategory\":\"sarapan\",\"isPuasa\":false,\"gizi\":{\"karbo\":true,\"lauk\":true,\"sayur\":true,\"buah\":true},\"waterGlasses\":\">=2\",\"kotakMakanEco\":true,\"tumblerEco\":true,\"menuDescription\":\"\",\"timeRecorded\":\"06:19\",\"isMissed\":false,\"timestamp\":\"06.19.22\"}",
+        "is_counter_entry": 1,
+        "is_missed": 0
+      },
+      {
+        "id": 6,
+        "student_id": "std-siswah",
+        "habit_type": "ibadah",
+        "sub_category": "pagi",
+        "log_date": "2026-10-27",
+        "created_at": "2026-10-27T06:22:06.460Z",
+        "score": 97.3,
+        "payload": "{\"sandhyaTime\":\"pagi\",\"subCategory\":\"pagi\",\"sandhyaNote\":\"Om Bhur Bhuvah Svah, Tat Savitur Varenyam\",\"otherWorship\":false,\"isMissed\":false,\"menitLewat\":22,\"waktuSisa\":248,\"waktuToleransi\":255,\"formulaText\":\"(Sisa 248m / Toleransi 255m) × 100 = 97.3 pt (Maks 100 pt, tanpa cap terendah)\",\"timestamp\":\"06.22.06\"}",
+        "is_counter_entry": 1,
+        "is_missed": 0
+      },
+      {
+        "id": 7,
+        "student_id": "std-siswa",
+        "habit_type": "ibadah",
+        "sub_category": "zuhur",
+        "log_date": "2026-10-27",
+        "created_at": "2026-10-27T06:30:41.375Z",
+        "score": 57.2,
+        "payload": "{\"prayer\":\"zuhur\",\"subCategory\":\"zuhur\",\"checkInTime\":\"13:30\",\"isMissed\":false,\"menitLewat\":110,\"waktuSisa\":85,\"waktuToleransi\":180,\"formulaText\":\"(Sisa 85m / Toleransi 180m) × 100 = 47.2 pt (Maks 100 pt, tanpa cap terendah)\",\"quranPages\":1230,\"surahName\":\"ss\",\"timestamp\":\"13.30.39\"}",
+        "is_counter_entry": 1,
+        "is_missed": 0
+      },
+      {
+        "id": 8,
+        "student_id": "std-siswa",
+        "habit_type": "olahraga",
+        "sub_category": "",
+        "log_date": "2026-10-27",
+        "created_at": "2026-10-27T06:49:20.496Z",
+        "score": 45,
+        "payload": "{\"duration\":\"15-30\",\"activities\":[\"jalanTangga\"],\"notes\":\"\",\"isMissed\":false,\"timestamp\":\"06.49.20\"}",
+        "is_counter_entry": 0,
+        "is_missed": 0
+      },
+      {
+        "id": 9,
+        "student_id": "std-siswa",
+        "habit_type": "belajar",
+        "sub_category": "",
+        "log_date": "2026-10-26",
+        "created_at": "2026-10-27T07:40:29.744Z",
+        "score": 55,
+        "payload": "{\"duration\":\"1-2h\",\"activities\":[\"Mengulang materi pelajaran sekolah / mengerjakan TP / PR\"],\"outputDescription\":\"ufhadpaudfh[usfhdapsfdsdfasdfasdfasfd\",\"isMissed\":true,\"timestamp\":\"14.40.29\"}",
+        "is_counter_entry": 0,
+        "is_missed": 1
+      },
+      {
+        "id": 10,
+        "student_id": "std-siswa",
+        "habit_type": "bangun",
+        "sub_category": "",
+        "log_date": "2026-10-26",
+        "created_at": "2026-10-27T07:48:04.488Z",
+        "score": 95,
+        "payload": "{\"entryMode\":\"terlewat\",\"timeSlot\":\"04.00-04.20\",\"kebugaranLevel\":5,\"isMissed\":true}",
+        "is_counter_entry": 0,
+        "is_missed": 1
+      }
+    ],
+    "admin_validations": [
+      {
+        "id": 1,
+        "student_id": "std-siswah",
+        "verified_by": "Drs. H. Ubaidillah, M.M. (Admin Kesiswaan)",
+        "verification_score": 5,
+        "notes": "Konsisten bangun pagi dan aktif dalam piket kebersihan SMAN 28.",
+        "verified_at": "2026-10-27T06:23:39.638Z"
+      }
+    ]
+  }
+}

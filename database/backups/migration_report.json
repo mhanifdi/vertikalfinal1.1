@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-10-29T01:10:50.447Z",
+  "sourceDbPath": "C:\\Users\\PLN\\antigravity\\JAWARA28\\database\\local_habit.db",
+  "targetDbPath": "C:\\Users\\PLN\\antigravity\\JAWARA28\\database\\jawara28_relational.db",
+  "backupBinaryPath": "C:\\Users\\PLN\\antigravity\\JAWARA28\\database\\backups\\local_habit_pre_reengineering_backup.db",
+  "backupJsonPath": "C:\\Users\\PLN\\antigravity\\JAWARA28\\database\\backups\\local_habit_pre_reengineering_dump.json",
+  "backupSha256": "e541eac4e50536b9683398211e4e81a4f3dd7bf7624698cc42f52c69d0ecf9ba",
+  "sourceCounts": {
+    "students": 4,
+    "teachers": 2,
+    "habit_logs": 10,
+    "admin_validations": 1
+  },
+  "migratedCounts": {
+    "users": 8,
+    "students": 4,
+    "teachers": 4,
+    "classes": 5,
+    "rombels": 3,
+    "journals": 4,
+    "habit_entries": 10,
+    "habit_sessions": 6,
+    "habit_components": 26,
+    "habit_entry_revisions": 24,
+    "point_transactions": 10,
+    "streak_records": 4,
+    "admin_validations": 1
+  },
+  "anomaliesDetectedAndHandled": [
+    {
+      "legacyLogId": 7,
+      "studentId": "std-siswa",
+      "logDate": "2026-10-27",
+      "habitType": "ibadah",
+      "issue": "Input tidak wajar pada payload lama: quranPages=1230, surahName='ss' dengan rumus kontinu lama (score=57.2).",
+      "resolution": "Dinormalisasi ke skema sesi ibadah (zuhur) sesuai Spesifikasi Final 7 KAIH dan nilai asli disimpan pada riwayat revisi migrasi."
+    },
+    {
+      "legacyLogId": 9,
+      "studentId": "std-siswa",
+      "logDate": "2026-10-26",
+      "habitType": "belajar",
+      "issue": "Entri terlewat lama terkena penalti -5 poin (legacy score=55).",
+      "resolution": "Dihapus penalti -5 poin sesuai Spesifikasi Final Bagian 1.4 (\"Tidak ada pengurangan nilai sebesar 5 poin karena mengisi secara fleksibel atau terlambat melengkapi jurnal\")."
+    },
+    {
+      "legacyLogId": 10,
+      "studentId": "std-siswa",
+      "logDate": "2026-10-26",
+      "habitType": "bangun",
+      "issue": "Entri terlewat lama terkena penalti -5 poin (legacy score=95).",
+      "resolution": "Dihapus penalti -5 poin sesuai Spesifikasi Final Bagian 1.4 (\"Tidak ada pengurangan nilai sebesar 5 poin karena mengisi secara fleksibel atau terlambat melengkapi jurnal\")."
+    }
+  ]
+}
